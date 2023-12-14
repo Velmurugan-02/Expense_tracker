@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- <div><img src="Image-1.png" class="img-1"></div> -->
+        <div class="main_div">
+            <div class="income_div">
+            <h2>Enter your Income</h2>
+            <input type="number" id="income">
+            </div>
+            <div class="reason">
+                <h2>Expense Reason</h2>
+                <input type="text" id="reason">
+                <h2>Amount</h2>
+                <input type="number" id="amount">
+                <button id="btn_amount" onclick="add()">Add</button>
+            </div>
+            <div id="reason_div">
+
+            </div>
+            <br>
+            <div class="reason_div"></div>
+            <button id="btn_cal" onclick="main()">Calculate</button>
+            <div id="ans_div">
+                
+            </div>
+        </div>
+        <script src="js.js"></script>
+    </body>
+</html>

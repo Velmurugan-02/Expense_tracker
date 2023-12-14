@@ -1,0 +1,46 @@
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+/* Cover Image
+.img-1{
+    margin: -1%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+} */
+
+/* Main div */
+.main_div{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* income div */
+.income_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.income_div>input{
+    height: 20px;
+}
+
+/* Expense div */
+.reason{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.reason>input{
+    height: 20px;
+}
+
